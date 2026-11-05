@@ -7,7 +7,7 @@
 ### **Student & Repository Information**
 * **Institution:** Bangalore Institute of Technology (BIT), Bengaluru
 * **Student Name:** Skanda K N
-* **GitHub Username:** [@skandaknbit](https://github.com/skandaknbit)
+* **GitHub Profiles:** [@skandakn](https://github.com/skandakn) (Primary) | [@skandaknbit](https://github.com/skandaknbit) (College)
 * **Repository:** `BCS358C-Project-Management-with-Git`
 * **Semester / Scheme:** 3rd Semester B.E. (2022 Scheme)
 
@@ -189,7 +189,7 @@ To clone a remote Git repository from GitHub to the local machine, inspect remot
 ### **Commands**
 ```bash
 cd ..
-git clone https://github.com/skandaknbit/BCS358C-Project-Management-with-Git.git
+git clone https://github.com/skandakn/BCS358C-Project-Management-with-Git.git
 cd BCS358C-Project-Management-with-Git
 git remote -v
 git branch -a
@@ -205,8 +205,8 @@ remote: Compressing objects: 100% (12/12), done.
 remote: Total 15 (delta 2), reused 15 (delta 2), pack-reused 0
 Receiving objects: 100% (15/15), 4.20 KiB | 4.20 MiB/s, done.
 Resolving deltas: 100% (2/2), done.
-origin  https://github.com/skandaknbit/BCS358C-Project-Management-with-Git.git (fetch)
-origin  https://github.com/skandaknbit/BCS358C-Project-Management-with-Git.git (push)
+origin  https://github.com/skandakn/BCS358C-Project-Management-with-Git.git (fetch)
+origin  https://github.com/skandakn/BCS358C-Project-Management-with-Git.git (push)
 * master
   remotes/origin/HEAD -> origin/master
   remotes/origin/master
@@ -231,7 +231,7 @@ To link a local repository to a remote repository on GitHub using 'git remote ad
 
 ### **Commands**
 ```bash
-git remote add origin https://github.com/skandaknbit/BCS358C-Project-Management-with-Git.git
+git remote add origin https://github.com/skandakn/BCS358C-Project-Management-with-Git.git
 git remote -v
 git branch -M master
 git push -u origin master
@@ -240,13 +240,13 @@ git status
 
 ### **Terminal Output**
 ```text
-origin  https://github.com/skandaknbit/BCS358C-Project-Management-with-Git.git (fetch)
-origin  https://github.com/skandaknbit/BCS358C-Project-Management-with-Git.git (push)
+origin  https://github.com/skandakn/BCS358C-Project-Management-with-Git.git (fetch)
+origin  https://github.com/skandakn/BCS358C-Project-Management-with-Git.git (push)
 Enumerating objects: 9, done.
 Counting objects: 100% (9/9), done.
 Compressing objects: 100% (6/6), done.
 Writing objects: 100% (9/9), 1.25 KiB | 1.25 MiB/s, done.
-To https://github.com/skandaknbit/BCS358C-Project-Management-with-Git.git
+To https://github.com/skandakn/BCS358C-Project-Management-with-Git.git
  * [new branch]      master -> master
 branch 'master' set up to track 'origin/master'.
 On branch master
@@ -282,7 +282,7 @@ git status
 ```text
 Switched to branch 'feature-branch'
 remote: Enumerating objects: 5, done.
-From https://github.com/skandaknbit/BCS358C-Project-Management-with-Git
+From https://github.com/skandakn/BCS358C-Project-Management-with-Git
    537ebae..e4a29c1  master     -> origin/master
 Successfully rebased and updated refs/heads/feature-branch.
 * e4a29c1 (HEAD -> feature-branch, origin/master) update project structure
@@ -582,7 +582,7 @@ Triggered and resolved a real-world merge conflict manually, finalized the merge
 ## **How to Clone & Run Locally**
 ```bash
 # Clone the repository
-git clone https://github.com/skandaknbit/BCS358C-Project-Management-with-Git.git
+git clone https://github.com/skandakn/BCS358C-Project-Management-with-Git.git
 cd BCS358C-Project-Management-with-Git
 
 # Make all experiment scripts executable
